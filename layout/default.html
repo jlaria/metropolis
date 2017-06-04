@@ -68,22 +68,6 @@ $endfor$
       font-style: italic;
     }
 
-    slides > slide {
-      -webkit-transition: all $transition$s ease-in-out;
-      -moz-transition: all $transition$s ease-in-out;
-      -o-transition: all $transition$s ease-in-out;
-      transition: all $transition$s ease-in-out;
-    }
-
-    .auto-fadein {
-      -webkit-transition: opacity 0.6s ease-in;
-      -webkit-transition-delay: $transition$s;
-      -moz-transition: opacity 0.6s ease-in $transition$s;
-      -o-transition: opacity 0.6s ease-in $transition$s;
-      transition: opacity 0.6s ease-in $transition$s;
-      opacity: 0;
-    }
-
 $if(logo)$
     slides > slide:not(.nobackground):before {
       content: "";
@@ -91,8 +75,8 @@ $if(logo)$
       top: 25px;
       right: 0;
       background: url($logo$) no-repeat;
-      background-size: 150px 50px;
-      padding: 100px;
+      background-size: 120px 40px;
+      padding: 80px;
     }
 $endif$
   </style>

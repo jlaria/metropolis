@@ -27,6 +27,8 @@ This is not the `metropolis` theme, but a customization to `ioslides` intended t
 
 Enjoy it!
 
+# Section 1
+
 ## R Markdown
 
 This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
@@ -51,3 +53,11 @@ summary(cars)
 plot(pressure)
 ```
 
+
+---
+
+Slide with text only
+
+## Slide with smaller{.smaller}
+
+Hey, this is a small font-size.

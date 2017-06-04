@@ -13,10 +13,10 @@ slides > slide {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
-  -webkit-transition: all 0.6s ease-in-out;
-  -moz-transition: all 0.6s ease-in-out;
-  -o-transition: all 0.6s ease-in-out;
-  transition: all 0.6s ease-in-out;
+  -webkit-transition: color 0.6s ease-in-out;
+  -moz-transition: color 0.6s ease-in-out;
+  -o-transition: color 0.6s ease-in-out;
+  transition: color 0.6s ease-in-out;
   -webkit-box-shadow: 0 20px 30px #090909;
   -moz-box-shadow: 0 20px 30px #090909;
   box-shadow: 0 20px 30px rgba(0,0,0,.6);
@@ -27,6 +27,14 @@ h1, h2, h3 {
   font-weight: 400;
   color: #F0F0F0;
   font-family: 'Fira Sans';
+  
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 85px;
+  padding: 0px 40px;
+  letter-spacing: 0;
   
 }
 
@@ -104,11 +112,12 @@ slide:not(.title-slide) {
 
 slide:not(.title-slide) hgroup {
   background-color: #050505;
-  padding: 20px 60px;
+  padding: 0;
 }
 
 slides > slide > hgroup + article {
-  padding: 0 60px;
+  padding: 0 40px;
+  margin-top: 25px;
 }
 
 canvas {
@@ -129,4 +138,8 @@ slides > slide:not(.nobackground):after {
   bottom: 20px;
   right: 60px;
   line-height: 1.9;
+}
+
+slides > slide.dark {
+    background: #050505 !important;
 }
