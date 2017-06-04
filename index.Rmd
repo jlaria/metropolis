@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = FALSE, comment = ' ', cache = TRUE)
 
 ## About
 
-The [`metropolis`](github.com/matze/mtheme) theme is a Beamer theme with minimal visual noise
+The [`metropolis`](https://github.com/matze/mtheme) theme is a Beamer theme with minimal visual noise
 inspired by the `hsrm` Beamer Theme by Benjamin Weiss.
 
 This is not the `metropolis` theme, but a customization to `ioslides` intended to look like `metropolis` to give a nice touch to R Markdown.
